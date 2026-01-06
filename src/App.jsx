@@ -169,7 +169,8 @@ function App() {
       </section>
     </main>
   <footer className='border-t-1 border-stone-900'>
-    <div className='py-8 px-7 flex items-start gap-3'>
+    <div className='py-8 px-7 flex items-start gap-3
+    '>
       <div>
       <h2 className="flex items-center gap-1 text-2xl mb-1">
           <img width="30" height="30" src="https://img.icons8.com/glyph-neue/64/46db7c/leaf.png" alt="leaf"/>
