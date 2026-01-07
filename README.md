@@ -13,7 +13,7 @@ This project aims to create an interactive dashboard that visualizes environment
 
 ## Technical Detail
 
-* Frontend: React
+* Frontend: React and Tailwind
 * Backend: Node.js or Python
 * Data Visualization: D3.js
 
