@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
+@theme inline {
+  --color-primary-clr: #14bb7b;
+  --color-secondary-clr: #46db7c;
+  --font-heading: 'BBH Hegarty', system-ui, sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+  --font-button: 'Roboto Slab', sans-serif;
+
+    --animate-float: float 2s ease-in-out infinite;
+    --animate-fadeInDown: fadeInDown 0.4s ease-in-out forwards;
+}
+@keyframes fadeInDown{
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+html{
+  background-color: black;
+}
+body{
+  font-family: var(--font-body);
+  color: white;
+}
+button{
+  cursor: pointer;
+}
