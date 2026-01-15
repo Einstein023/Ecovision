@@ -1,3 +1,32 @@
+# Ecovision
+
+## Project Overview
+
+This project aims to create an interactive dashboard that visualizes environmental dta such as air quality, climate changes or deforestation. The dashboard uses AI to anaylse the data and provide insight and predictions
+
+## Features
+
+* Interactive data visualization
+* AI for data analysis and predictions
+* Real-time data integration
+* User friendly interfaces built with React
+
+## Technical Detail
+
+* Frontend: React and Tailwind
+* Backend: Node.js or Python
+* Data Visualization: D3.js
+
+## Get Started
+
+* Clone the repository: git clone https://github.com/Einstein023/Ecovision.git
+* Install dependencies: npm install or pip install -r requirement
+* Start the application: npm run dev
+
+## Contributing
+
+Contributings are welcome! if you'd to contribute to this project, please fork the repository and submit a pull request. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
